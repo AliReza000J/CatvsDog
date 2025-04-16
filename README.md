@@ -91,7 +91,6 @@ plt.plot(history.history['val_accuracy'], label='Val Acc')
 
 ## 🧬 Future Improvements
 
-- Try using **Transfer Learning** (e.g., ResNet50, MobileNetV2)
 - Add **CutMix** or **MixUp** augmentation
 - Convert model to `TFLite` for mobile deployment
 - Use **Grad-CAM** for visualizing model attention
