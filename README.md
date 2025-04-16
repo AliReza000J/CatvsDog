@@ -22,11 +22,11 @@ Make sure your dataset is structured like this:
 ```
 dataset/
 ├── train/
-│   ├── cats/
-│   └── dogs/
+│   ├── CAT/
+│   └── DOG/
 └── test/
-    ├── cats/
-    └── dogs/
+    ├── CAT/
+    └── DOG/
 ```
 
 - **Training set**: 25,000 images
