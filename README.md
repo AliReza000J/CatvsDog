@@ -1,4 +1,3 @@
-
 # 🐱🐶 Cat vs Dog Classifier using CNN with SE Block
 
 This project is a **binary image classifier** that distinguishes between **cats and dogs** using a **deep convolutional neural network** enhanced with **Squeeze-and-Excitation (SE) blocks**, `BatchNormalization`, `Dropout`, and `ImageDataGenerator` for data augmentation.
@@ -70,7 +69,6 @@ model.fit(
     train_generator,
     validation_data=val_generator,
     epochs=30,
-    callbacks=[ReduceLROnPlateau(...), ModelCheckpoint(...)]
 )
 ```
 
@@ -101,7 +99,7 @@ plt.plot(history.history['val_accuracy'], label='Val Acc')
 
 ## 📁 Output
 
-- Best model saved as `best_model.h5`
+- Best model saved as `VGGLike_model.h5`
 - You can evaluate it on test data:
 
 ```python
