@@ -52,6 +52,7 @@ dataset/
 - TensorFlow 2.x
 - matplotlib
 - numpy
+- PIL
 - (Optional) Jupyter Notebook for interactive experimentation
 
 Install with:
