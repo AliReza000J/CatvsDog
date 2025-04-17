@@ -51,14 +51,13 @@ dataset/
 - Python 3.7+
 - TensorFlow 2.x
 - matplotlib
-- numpy
-- PIL
+- pillow
 - (Optional) Jupyter Notebook for interactive experimentation
 
 Install with:
 
 ```bash
-pip install tensorflow matplotlib numpy
+pip install tensorflow matplotlib pillow
 ```
 
 ---
