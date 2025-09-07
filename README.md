@@ -68,7 +68,7 @@ pip install tensorflow matplotlib pillow
 model.fit(
     train_generator,
     validation_data=val_generator,
-    epochs=1050,
+    epochs=150,
 )
 ```
 
