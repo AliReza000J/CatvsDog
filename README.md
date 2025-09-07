@@ -11,7 +11,7 @@ This project is a **binary image classifier** that distinguishes between **cats 
 - ✅ Includes BatchNormalization and Dropout for regularization
 - ✅ Uses Keras `ImageDataGenerator` for real-time data augmentation
 - ✅ Clear train/validation/test split
-- ✅ Accuracy and loss plots included
+- ✅ Accuracy, loss and AUC plots included
 
 ---
 
@@ -68,7 +68,7 @@ pip install tensorflow matplotlib pillow
 model.fit(
     train_generator,
     validation_data=val_generator,
-    epochs=30,
+    epochs=1050,
 )
 ```
 
@@ -76,9 +76,9 @@ The model automatically uses data augmentation and monitors validation accuracy/
 
 ---
 
-## 📊 Accuracy and Loss Plots
+## 📊 Accuracy, Loss and AUC Plots
 
-The script includes accuracy/loss plotting after training:
+The script includes accuracy/loss/auc plotting after training:
 
 ```python
 plt.plot(history.history['accuracy'], label='Train Acc')
@@ -98,7 +98,7 @@ plt.plot(history.history['val_accuracy'], label='Val Acc')
 
 ## 📁 Output
 
-- Best model saved as `VGGLike_model.h5`
+- Best model saved as `best_model.keras`
 - You can evaluate it on test data:
 
 ```python
